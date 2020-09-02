@@ -2,14 +2,12 @@
     box-sizing: border-box;
 }
 
-header, main, aside, footer{
-    /* position: absolute; */
-    border: 4px solid black;
+header, main, aside, footer {
+    position: absolute;
+    overflow: auto;
 }
 
 header {
-    position: absolute;
-    border-color: greenyellow;
     width: 100%;
     left: 0;
     top: 0;
@@ -17,27 +15,21 @@ header {
 }
 
 main {
-    position: absolute;
-    border-color: blueviolet;
-    top:96px;
-    width: 75%;
+    top:10.2%;
+    width: 80%;
     height: 80%;
     text-align: center;
 }
 
 aside {
-    position: absolute;
-    border-color: aquamarine;
-    top: 96px;
-    left: 75%;
-    width: 25%;
+    top:10.2%;
+    left: 80%;
+    width: 20%;
     height:80%;
 }
 
 footer {
-    position: absolute;
-    border-color: coral;
-    top: calc(96px + 80%);
+    top: 90.2%;
     width: 100%;
-    height: calc(20% - 96px);
+    height: 9.8%;
 }
