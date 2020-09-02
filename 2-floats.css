@@ -1,0 +1,23 @@
+header, main, aside, footer {
+    overflow: auto;
+}
+
+header, footer, .clear {
+    width: 100%;
+    clear: both;
+}
+
+main, aside {
+    display: block;
+    height: 740px;
+}
+
+main {
+    width: 80%;
+    float: left;
+}
+
+aside {
+    width: 20%;
+    float: right;
+}
