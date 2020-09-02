@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 header, main, aside, footer {
@@ -11,6 +12,7 @@ header, main, aside, footer {
 main, aside {
     top:10.2%;
     height: 80%;
+
 }
 
 header, footer {
@@ -18,19 +20,24 @@ header, footer {
 }
 
 header {
+    padding-top: 2%;
     height: 10.2%;
 }
 
 main {
+    padding-top: 12%;
     width: 80%;
+    text-align: unset;
 }
 
 aside {
+    padding-top: 8%;
     left: 80%;
     width: 20%;
 }
 
 footer {
+    padding-top: 2%;
     top: 90.2%;
     height: 9.8%;
 }
